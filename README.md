@@ -1,2 +1,2 @@
 # MSKI
-MSKI code will be open soon!!!
+MSKI's code will be open soon!!!
