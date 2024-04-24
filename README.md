@@ -28,19 +28,7 @@ $$
  | \qquad | \qquad |-- test.json
 
  | \qquad | \qquad |-- rel_file.json
- 
- |    |-- cdr
- |    |    |-- train_filter.data
- |    |    |-- dev_filter.data
- |    |    |-- test_filter.data
- |    |    |-- rel_file.json
- |    |-- gda
- |    |    |-- train.data
- |    |    |-- dev.data
- |    |    |-- test.data
- |    |    |-- rel_file.json
- |-- meta
- |    |-- rel2id.json
+
 
  \end{aligned}
 $$
