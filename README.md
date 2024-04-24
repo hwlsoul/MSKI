@@ -37,5 +37,24 @@ The DocRED dataset can be downloaded following the instructions at [link](https:
 Train the teacher model on distant dataset:
 
 ```bash
-sh scripts/train_teacher_roberta.sh # for BERT
+sh scripts/train_teacher_roberta.sh # for RoBERTa
 
+finetune teacher model on human-annotated dataset:
+
+```bash
+sh scripts/finetune_teacher_roberta.sh # for RoBERTa
+
+infer teacher model on distant dataset:
+
+```bash
+sh scripts/infer_teacher_roberta.sh # for RoBERTa
+
+distillation the student model on distant dataset:
+
+```bash
+sh scripts/distill_student_roberta.sh # for RoBERTa
+
+finetune the student model on distant dataset:
+
+```bash
+sh scripts/finetune_student_roberta.sh # for RoBERTa
