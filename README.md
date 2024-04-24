@@ -32,4 +32,9 @@ The DocRED dataset can be downloaded following the instructions at [link](https:
     - meta
       - rel2id.json
 
+# **Training and Evaluation**
+
+Train the teacher model on distant dataset:
+
+>> sh scripts/train_teacher_roberta.sh
  
