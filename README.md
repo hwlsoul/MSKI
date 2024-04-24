@@ -12,6 +12,7 @@
 
 The DocRED dataset can be downloaded following the instructions at [link](https://github.com/thunlp/DocRED/tree/master/data). The CDR and GDA datasets can be obtained following the instructions in edge-oriented graph. The expected structure of files is:
 ATLOP
+$$
 \begin{aligned}
 
  |-- dataset
@@ -42,4 +43,5 @@ ATLOP
  |    |-- rel2id.json
 
  \end{aligned}
+$$
  
