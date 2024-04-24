@@ -59,4 +59,5 @@ finetune the student model on distant dataset:
 ```bash
 sh scripts/finetune_student_roberta.sh # for RoBERTa
 
+
 The program will generate a test file **result.zip** in the official evaluation format. You can compress and submit it to Colab for the official test score.
