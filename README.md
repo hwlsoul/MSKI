@@ -14,11 +14,11 @@ The DocRED dataset can be downloaded following the instructions at [link](https:
 ATLOP
  |-- dataset
  
- |    |-- docred
+ |  \\  |-- docred
  
- |    |    |-- train_annotated.json    
+ |  \\  |  \\  |-- train_annotated.json    
  
- |    |    |-- train_distant.json
+ |  \\  |  \\  |-- train_distant.json
  
  |    |    |-- dev.json
  
