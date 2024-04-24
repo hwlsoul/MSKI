@@ -38,26 +38,26 @@ Train the teacher model on distant dataset:
 
 ```bash
 sh scripts/train_teacher_roberta.sh # for RoBERTa
-
+```
 finetune teacher model on human-annotated dataset:
 
 ```bash
 sh scripts/finetune_teacher_roberta.sh # for RoBERTa
-
+```
 infer teacher model on distant dataset:
 
 ```bash
 sh scripts/infer_teacher_roberta.sh # for RoBERTa
-
+```
 distillation the student model on distant dataset:
 
 ```bash
 sh scripts/distill_student_roberta.sh # for RoBERTa
-
+```
 finetune the student model on distant dataset:
 
 ```bash
 sh scripts/finetune_student_roberta.sh # for RoBERTa
-
+```
 
 The program will generate a test file **result.zip** in the official evaluation format. You can compress and submit it to Colab for the official test score.
