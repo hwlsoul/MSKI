@@ -14,17 +14,17 @@ The DocRED dataset can be downloaded following the instructions at [link](https:
 ATLOP
  |-- dataset
  
- |  \\  |-- docred
+ |  \qquad  |-- docred
  
- |  \\  |  \\  |-- train_annotated.json    
+ |  \qquad  |  \qquad  |-- train_annotated.json    
  
- |  \\  |  \\  |-- train_distant.json
+ |  \qquad |  \qquad |-- train_distant.json
  
- |    |    |-- dev.json
+ | \qquad  | \qquad |-- dev.json
  
- |    |    |-- test.json
+ | \qquad | \qquad |-- test.json
 
- |    |    |-- rel_file.json
+ | \qquad | \qquad |-- rel_file.json
  
  |    |-- cdr
  |    |    |-- train_filter.data
