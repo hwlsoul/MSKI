@@ -10,5 +10,22 @@
 
 # **Dataset**
 
-
+The DocRED dataset can be downloaded following the instructions at [link](https://github.com/thunlp/DocRED/tree/master/data). The CDR and GDA datasets can be obtained following the instructions in edge-oriented graph. The expected structure of files is:
+ATLOP
+ |-- dataset
+ |    |-- docred
+ |    |    |-- train_annotated.json        
+ |    |    |-- train_distant.json
+ |    |    |-- dev.json
+ |    |    |-- test.json
+ |    |-- cdr
+ |    |    |-- train_filter.data
+ |    |    |-- dev_filter.data
+ |    |    |-- test_filter.data
+ |    |-- gda
+ |    |    |-- train.data
+ |    |    |-- dev.data
+ |    |    |-- test.data
+ |-- meta
+ |    |-- rel2id.json
  
