@@ -29,7 +29,7 @@ The DocRED dataset can be downloaded following the instructions at [link](https:
       - dev.data
       - test.data
       - rel_file.json
-  - meta
-    - rel2id.json
+    - meta
+      - rel2id.json
 
  
